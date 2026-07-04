@@ -1,9 +1,7 @@
-# mini_ETL
-Data Quality Checker
-Scans a CSV file / DataFrame and generates a data quality report covering:
-  - Missing values per column
-  - Duplicate rows
-  - Data type mismatches / inconsistent values
-  - Basic summary statistics
+CSV-to-SQLite ETL Pipeline
+A mini ETL (Extract, Transform, Load) pipeline that:
+  1. EXTRACTS data from a raw/messy CSV file
+  2. TRANSFORMS it (handles missing values, removes duplicates, fixes data types)
+  3. LOADS the cleaned data into a SQLite database
 
-Run this in Google Colab or locally. Only dependency: pandas
+Run this in Google Colab or locally. Only dependency: pandas (built into Colab already)
